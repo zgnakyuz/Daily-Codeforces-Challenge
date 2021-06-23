@@ -12,7 +12,7 @@ int main() {
     cin >> a;
 
     if (a > max) {
-      ttl += (a - max) * i;  // adding all of the numbers' diff
+      ttl += (a - max) * i;  // adding all of the previous numbers' diff
       max = a;
     } else if (a < max) {
       ttl += max - a;
